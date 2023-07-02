@@ -13,7 +13,7 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: aquamarine;
+  background:linear-gradient(to right, yellow, orange);
 }
 
 .board-box{
@@ -29,19 +29,28 @@ font-size: 4em;
 }
 
 .board-grid{
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  width: 100%;
   font-size: 10px;
+  background-color: rgb(249, 237, 0);
+ height: 100%;
+ width: 100%;
 }
 
+.playerwon{
+  font-size: 2em;
+  margin-bottom: 10px;
+}
 
 .board-wrapper{
-  background-color: antiquewhite;
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  height: 50%;
+ display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+background-color: rgb(255, 190, 39);
+width: 50%;
+height: 50%;
 }
 
