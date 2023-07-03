@@ -8,12 +8,15 @@ body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.wrapper-wrapper{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background:linear-gradient(to right, yellow, orange);
+.board-grid{
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  font-size: 10px;
+  background-color: rgb(249, 237, 0);
+  height: 500px;
+
 }
 
 .board-box{
@@ -27,30 +30,3 @@ font-size: 4em;
 .board-box:hover{
   cursor: pointer;
 }
-
-.board-grid{
-
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  font-size: 10px;
-  background-color: rgb(249, 237, 0);
- height: 100%;
- width: 100%;
-}
-
-.playerwon{
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-.board-wrapper{
- display: flex;
-flex-direction: column;
-align-items: center;
-padding: 20px;
-background-color: rgb(255, 190, 39);
-width: 50%;
-height: 50%;
-}
-
