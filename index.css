@@ -52,6 +52,13 @@ border-radius: 10px;
   border-radius: 10px;
 }
 
+.header{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 9em;
+}
+
+
 .overlay{
   font-size: 5em;
   flex-direction: column;
